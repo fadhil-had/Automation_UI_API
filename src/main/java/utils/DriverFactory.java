@@ -17,7 +17,7 @@ public class DriverFactory {
             DesiredCapabilities caps = new DesiredCapabilities();
             caps.setCapability("platformName", "Android");
             caps.setCapability("automationName", "UiAutomator2");
-            caps.setCapability("deviceName", "emulator-5554"); //Please replace it with your device name
+            caps.setCapability("deviceName", "JFK7A6L7OZUC8PXG"); //Please replace it with your device name
 
             // APK yang disimpan di folder "app/"
             caps.setCapability("app", System.getProperty("user.dir") + "/app/mda-1.0.13-15.apk");
