@@ -8,4 +8,4 @@ Feature: Buy product on MyDemoApp
     And user checkout
     And user checkout payment
     Then user review payment
-    Then user confirm payment
+    And user confirm payment
